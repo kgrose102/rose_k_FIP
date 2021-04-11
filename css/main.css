@@ -108,6 +108,11 @@ header ul li a
 	border-top: solid 1px #005d1f;
 }
 
+#mainNav li:last-child
+{
+	margin-bottom: 10px;
+}
+
 #burgerCon
 {
 	margin-top: 20px;
@@ -115,7 +120,6 @@ header ul li a
 }
 
 #burgerCon.slideToggle
-/*we will use javaScript to add toggle*/
 {
 	display: block;
 }
@@ -249,3 +253,105 @@ footer
 	margin: 10px auto 0 auto;
 }
 
+/*About Us Page*/
+
+video
+{
+	max-width: 100%;
+}
+
+/*Product Page*/
+.info a
+{
+	display: block;
+	width: 110px;
+	text-decoration: none;
+	background-color: #bcbec0;
+	padding: 10px 5px 10px 10px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: white;
+	border-radius: 5px;
+	margin: 10px auto 0 auto;
+}
+
+.product
+{
+	display: none;
+}
+
+.mobileProduct ul
+{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.mobileProduct ul li
+{
+	display: inline;
+	margin-right: 10px;
+	color: #FFF;
+	cursor: pointer;
+	transition: all .2s ease;
+}
+
+.mobileProduct ul li:last-child
+{
+	margin-right: 0;
+}
+
+.mobileProduct li:hover
+{
+	border-bottom: 2px solid #FFF;
+}
+
+/*Gallery*/
+
+/*Purchase*/
+.map
+{
+	display: none;
+}
+
+.contactUs p
+{
+	margin-bottom: 20px;
+}
+
+label
+{
+	margin: 20px 0 10px 10px;
+	font-family: 'heinekenregular';
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+input
+{
+	padding: 5px 0 5px 0;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+textarea
+{
+	margin-left: 15px;
+	margin-bottom: 10px;
+	height: 100px;
+	width: 80%;
+}
+
+
+input[type=submit]{
+	display: block;
+	width: 110px;
+	text-decoration: none;
+	background-color: #bcbec0;
+	padding: 10px 5px 10px 10px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: white;
+	border-radius: 5px;
+	margin: 10px auto 0 auto;
+}
