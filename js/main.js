@@ -9,9 +9,9 @@
 		beerTag = document.querySelector('#beerTag'),
 		beerPara = document.querySelector('#beerPara'),
 		beerSelector = document.querySelector('#beerSelector'),
-		beerInfo = [['Baby-Dry','images/baby-dry.jpg', 'The Original','Our classic beer, The Baby-Dry Lager. Featuring a crisp light taste, and mild hoppy flavour, it pairs perfectly with any thing.'],
-				['Baby-Pale','images/pale.jpg','Bright Ale','Our New medium bodied Baby-Pale was crafted for the Pale Ale lovers out there. Featuring notes of the hops, but also a delicate sweetness making for Baby-Pale one of the smoothest drink you can ever have.'],
-				['Baby Imperial','images/imperial.jpg','Big and Bold','Our New Baby Imperial features a strong bold flavour which even the kings and queens of old would enjoy.']
+		beerInfo = [['Baby-Dry','images/baby-dry.png', 'The Original','Our classic beer, The Baby-Dry Lager. Featuring a crisp light taste, and mild hoppy flavour, it pairs perfectly with any thing.'],
+				['Baby-Pale','images/pale.png','Bright Ale','Our New medium bodied Baby-Pale was crafted for the Pale Ale lovers out there. Featuring notes of the hops, but also a delicate sweetness making for Baby-Pale one of the smoothest drink you can ever have.'],
+				['Baby Imperial','images/imperial.png','Big and Bold','Our New Baby Imperial features a strong bold flavour which even the kings and queens of old would enjoy.']
 			];
 
 	function hambergerMenu(){
