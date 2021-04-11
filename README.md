@@ -7,8 +7,8 @@
 ### The goal was to make it at first glance appear to be Heineken until people looked closer.
 
 ## Site built using HTML, CSS, and JavaScript.
-## The site is dynamic and should work on screen 350px or larger.
-### Site tested compatible in [Firefox](https://www.mozilla.org/en-CA/firefox/new/), [Google Chrome](https://www.google.com/intl/en_ca/chrome/).
+## The site is dynamic and should work on screen 320px or larger.
+### Site tested compatible in [Firefox](https://www.mozilla.org/en-CA/firefox/new/), and [Google Chrome](https://www.google.com/intl/en_ca/chrome/).
 
 ## To Open:
 1. Clone repo

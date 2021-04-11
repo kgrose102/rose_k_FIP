@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Opens html, set site to english -->
+	<head>
+		<meta charset="UTF-8">
+		<!-- sets text language interpretation -->
+		<meta name="viewport" content="initial-scale=1.0, width=device-width">
+		<!-- makes site view properly at mobile -->
+		<title>Purchase - PAMPERS BEER</title>
+		<!-- sets title on tab -->
+		<link href="css/reset.css" rel="stylesheet" type="text/css">
+		<!-- links in an resets css file. Put before Custom CSS -->
+
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<!-- links in the css file. Says what type of file it'll be, and says what is found in the file -->
+	</head>
+	<body>
+		<!-- Content Goes Here -->
+		<h1 class="hidden">Where to Purchase</h1>
+		<div id="container">
+			<header>
+				<div id="headContainer" class="gridCon">
+					<nav id="mainNav">
+						<h2 class="hidden">Main Navigation</h2>
+						<button id="button"></button>
+						<div id=burgerCon>
+							<ul id="navMenu">
+								<li><a href="index.html">HOME</a></li>
+								<li><a href="about.html">ABOUT US</a></li>
+								<li><a href="products.html">PRODUCTS</a></li>
+								<li><a href="gallery.html">GALLERY</a></li>
+								<li><a href="purchase.html">PURCHASE</a></li>
+							</ul>
+						</div>
+					</nav>
+					<a href="index.html"><img src="images/stacked_logo.svg" alt="pampers beer star logo" id="mainLogo"></a>
+				</div>
+			</header>
+
+			<div id="promoImage"><img src="images/purchase_header.jpg" alt="picture of PAMPERS beer"></div>
+
+			<section class="info mapMobile gridCon">
+				<h2>Find A Location</h2>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5835.645613358216!2d-81.19292289237589!3d43.003065542440346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882eed6f50a10ff7%3A0x1d76f5d56c26dc09!2sBeer%20Store%203105!5e0!3m2!1sen!2sca!4v1618161348063!5m2!1sen!2sca" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</section>
+
+			<section class="info map gridCon">
+				<h2>Find A Location</h2>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5835.645613358216!2d-81.19292289237589!3d43.003065542440346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882eed6f50a10ff7%3A0x1d76f5d56c26dc09!2sBeer%20Store%203105!5e0!3m2!1sen!2sca!4v1618161348063!5m2!1sen!2sca" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</section>
+
+			<section class="info contactUs gridCon">
+				<h2>Contact Us</h2>
+				<p>Need to contact us? or just wanna stay up to date on the latest Pampers beer news? use the form below.</p>
+				<form action="form.php" method="post">
+					<label for="name">Name: (required)</label>
+					<input type="text" required id="name" placeholder="Enter Name">
+					<br>
+					<label for="email">Email: (required)</label>
+					<input type="text" required id="email" placeholder="Enter Email">
+					<br>
+					<input type="checkbox" id="emailList">
+					<label for="emailList">Subscribe me to email list</label>
+					<br>
+					<h3>What's this in regards to?</h3>
+					<br>
+					<input type="checkbox" id="mailSign">
+					<label for="mailsign">Mail list signup</label>
+					<br>
+					<input type="checkbox" id="enquiry">
+					<label for="enquiry">Product Enquiry</label>
+					<br>
+					<input type="checkbox" id="supplier">
+					<label for="supplier">Supplier Suggestion</label>
+					<br>
+					<input type="checkbox" id="other">
+					<label for="other">Other (comment Below)</label>
+					<br>
+					<label for="Comments">Comments:</label>
+					<br>
+					<textarea id="comments"></textarea>
+					<br>
+					<label for="human">What is 8 + 2?: (security)</label>
+					<input type="text" id="human" requred placeholder="What is 8 + 2">
+					<br>
+					<input type="submit" value="submit">
+
+				</form>
+			</section>
+
+			<footer id="mainFooter">
+				<div id="socialCon">
+					<h2>SOCIAL MEDIA</h2>
+					<div id="socialIcons">
+						<a href="https://www.facebook.com"><img src="images/facebook.svg" alt="facebook logo"></a>
+						<a href="https://www.instagram.com"><img src="images/instagram.svg" alt="instagram logo"></a>
+						<a href="https://www.twitter.com"><img src="images/twitter.svg" alt="twitter logo"></a>
+						<a href="https://www.youtube.com"><img src="images/youtube.svg" alt="youtube logo"></a>
+					</div>
+				</div>
+				<nav id="footerNav">
+					<h2 class="hidden">Footer Navigation</h2>
+					<ul id="footerMenu">
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT US</a></li>
+						<li><a href="products.html">PRODUCTS</a></li>
+						<li><a href="gallery.html">GALLERY</a></li>
+						<li><a href="purchase.html">PURCHASE</a></li>
+					</ul>
+				</nav>
+
+				<a href="index.html"><img src="images/stacked_logo.svg" alt="pampers beer star logo" id="footerLogo"></a>
+				<p>Copyright© PAMPERS BEER 2021</p>
+				
+			</footer>
+		</div>
+
+		<script src="js/main.js"></script>
+		<!-- imports java script file -->
+	</body>
+</html>

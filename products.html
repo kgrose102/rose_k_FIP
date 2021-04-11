@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Opens html, set site to english -->
+	<head>
+		<meta charset="UTF-8">
+		<!-- sets text language interpretation -->
+		<meta name="viewport" content="initial-scale=1.0, width=device-width">
+		<!-- makes site view properly at mobile -->
+		<title>Products - PAMPERS BEER</title>
+		<!-- sets title on tab -->
+		<link href="css/reset.css" rel="stylesheet" type="text/css">
+		<!-- links in an resets css file. Put before Custom CSS -->
+
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<!-- links in the css file. Says what type of file it'll be, and says what is found in the file -->
+	</head>
+	<body>
+		<!-- Content Goes Here -->
+		<h1 class="hidden">Our Products</h1>
+		<div id="container">
+			<header>
+				<div id="headContainer" class="gridCon">
+					<nav id="mainNav">
+						<h2 class="hidden">Main Navigation</h2>
+						<button id="button"></button>
+						<div id=burgerCon>
+							<ul id="navMenu">
+								<li><a href="index.html">HOME</a></li>
+								<li><a href="about.html">ABOUT US</a></li>
+								<li><a href="products.html">PRODUCTS</a></li>
+								<li><a href="gallery.html">GALLERY</a></li>
+								<li><a href="purchase.html">PURCHASE</a></li>
+							</ul>
+						</div>
+					</nav>
+					<a href="index.html"><img src="images/stacked_logo.svg" alt="pampers beer star logo" id="mainLogo"></a>
+				</div>
+			</header>
+
+			<section class="info mobileProduct gridCon">
+				<ul id="beerSelector">
+					<li data-offset='0'>Baby-Dry</li>
+					<li data-offset='1'>Baby-Pale</li>
+					<li data-offset='2'>Baby Imperial</li>
+				</ul>
+				<h2 id="beerName">Baby-Dry</h2>
+				<img src="images/baby-dry.jpg" alt="image of Pampers beer Baby-Dry" id="beerPic">
+				<h3 id="beerTag">The Original</h3>
+				<p id="beerPara">Our classic beer, The Baby-Dry Lager. Featuring a crisp light taste, and mild hoppy flavour, it pairs perfectly with any thing.</p>
+				<a href="purchase.html">PURCHASE</a>
+			</section>
+
+			<section class="info product gridCon">
+				<h2>Baby-Dry</h2>
+				<h3>The Original</h3>
+				<p>Our classic beer, The Baby-Dry Lager. Featuring a crisp light taste, and mild hoppy flavour, it pairs perfectly with any thing.</p>
+				<a href="purchase.html">PURCHASE</a>
+				<img src="images/baby-dry.jpg" alt="images of Pampers Beer Baby-Dry.">
+			</section>
+
+			<section class="info product gridCon">
+				<img src="images/pale.jpg" alt="image of Baby-Pale Ale">
+				<h2>Baby-Pale</h>
+				<h3>Bright Ale</h3>
+				<p>Our New medium bodied Baby-Pale was crafted for the Pale Ale lovers out there. Featuring notes of the hops, but also a delicate sweetness making for Baby-Pale one of the smoothest drink you can ever have.</p>
+				<a href="purchase.html">PURCHASE</a>
+			</section>
+
+			<section class="info product gridCon">
+				<h2>Baby Imperial</h2>
+				<h3>Big and Bold</h3>
+				<p>Our New Baby Imperial features a strong bold flavour which even the kings and queens of old would enjoy.</p>
+				<a href="purchase.html">PURCHASE</a>
+				<img src="images/imperial.jpg" alt="image of Baby Imperial">
+			</section>
+
+
+			<footer id="mainFooter">
+				<div id="socialCon">
+					<h2>SOCIAL MEDIA</h2>
+					<div id="socialIcons">
+						<a href="https://www.facebook.com"><img src="images/facebook.svg" alt="facebook logo"></a>
+						<a href="https://www.instagram.com"><img src="images/instagram.svg" alt="instagram logo"></a>
+						<a href="https://www.twitter.com"><img src="images/twitter.svg" alt="twitter logo"></a>
+						<a href="https://www.youtube.com"><img src="images/youtube.svg" alt="youtube logo"></a>
+					</div>
+				</div>
+				<nav id="footerNav">
+					<h2 class="hidden">Footer Navigation</h2>
+					<ul id="footerMenu">
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT US</a></li>
+						<li><a href="products.html">PRODUCTS</a></li>
+						<li><a href="gallery.html">GALLERY</a></li>
+						<li><a href="purchase.html">PURCHASE</a></li>
+					</ul>
+				</nav>
+
+				<a href="index.html"><img src="images/stacked_logo.svg" alt="pampers beer star logo" id="footerLogo"></a>
+				<p>Copyright© PAMPERS BEER 2021</p>
+				
+			</footer>
+		</div>
+
+		<script src="js/main.js"></script>
+		<!-- imports java script file -->
+	</body>
+</html>
